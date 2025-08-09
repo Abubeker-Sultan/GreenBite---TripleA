@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  body {
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(vecteezy_abstract-technology-background_26911349\ copy\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+   
+  
+  }
+
+  h1{
+    font-size: 50px;
+    color: aqua;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+ 
+  
+}
+  
+  
+  .form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+  }
+
+  .form-container{
+    background-color: transparent;
+    
+    
+  }
+  
+
+  form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #fcf8f8;
+  }
+  
+ 
+  form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+  }
+  
+
+  form button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  #reques{
+    display: flex;
+    gap: 30px;
+  }
+  #register-box{
+    display: none;
+  }
+
+  #register-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  
+ 
+    
+  }
+
+  #register-box{
+    background-color: transparent;
+    
+    
+  }
+  #register-btn{
+    margin-bottom: 10px;
+  }
+  .error{
+    border: 2px solid red;
+  }
+.errorMessage{
+  position: absolute;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+
+
+
+}
+      
+ /* Optional: overlay behind cart */
+#cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 1040;
+}
+#cart-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+      
+
